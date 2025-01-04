@@ -1,6 +1,6 @@
-# MAL Recommendation System
+# MALRecommender
 
-A mini webscraping and recommendation system to provide anime suggestions from MyAnimeList data.
+A mini webscraping and recommendation system to provide anime/manga suggestions from MyAnimeList data.
 
 ### Dependencies
 - `beautifulsoup4` for webscraping
@@ -14,6 +14,8 @@ A mini webscraping and recommendation system to provide anime suggestions from M
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate
+deactivate
 ```
 
 2. Install dependencies:
@@ -35,7 +37,6 @@ Enter your preference according to the prompt or quit.
 4. Force Data Refresh
 
 To force a refresh of the anime data:
-
 
 ```bash
 python cli.py --refresh
